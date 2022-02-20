@@ -1,13 +1,11 @@
 # Template: Standard Robot Framework
 
-Want to get started using [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) this is the simplest template to start from.
+- This script is using [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics).
 
-This template robot:
+- The script is in (`tasks.robot`) file.
 
-- Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
-- Includes all the necessary dependencies and initialization commands (`conda.yaml`).
-- Provides a simple task template to start from (`tasks.robot`).
+- [Example result in html](https://drive.google.com/file/d/1g743RxrpV528Lo9HS6hJ2uiA2dmMFTZA/view?usp=sharing)
 
-## Learning materials
+# See more
 
 - [All docs related to Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)

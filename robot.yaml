@@ -1,5 +1,5 @@
 tasks:
-  Run all tasks:
+  Run exercise 1:
     shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.robot
 
 condaConfigFile: conda.yaml

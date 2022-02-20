@@ -41,22 +41,6 @@ ${SEARCH_RESULT_ELE}    class:srp-controls__count-heading
 ${SEARCH_RESULT_TEXT}    id:gh-ac
 ${RESULT_TITLE}    //li[@class="s-item s-item__pl-on-bottom s-item--watch-at-corner"]//span
 
-*** Tasks ***
-Scenario 1
-    Open a browser
-    Search by category
-    Look into cellphones and smartphones page
-    Check more filters
-    Select screen size
-    Select price
-    Select location
-    Apply filters and verify tags
-    Close a browser
-
-Scenario 2
-    Open a browser
-    Search something
-
 *** Keywords ***
 Open a browser
     Open Available Browser  ${BASE_URL}    maximized=${TRUE}
@@ -119,3 +103,19 @@ Search something
     Page Should Contain    ${RES_LOAD_PAGE}
     ${RES_RESULT_TITLE}    Get Value    ${SEARCH_RESULT_TEXT}
     Element Should Contain    ${RESULT_TITLE}    ${RES_RESULT_TITLE}    ignore_case=${TRUE}
+
+*** Tasks ***
+Scenario 1
+    Open a browser
+    Search by category
+    Look into cellphones and smartphones page
+    Check more filters
+    Select screen size
+    Select price
+    Select location
+    Apply filters and verify tags
+    Close a browser
+
+Scenario 2
+    Open a browser
+    Search something
