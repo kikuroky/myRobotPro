@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.7.5 on win32)" generated="20220220 14:18:53.982" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\kikis\.vscode\extensions\robocorp.robotframework-lsp-0.40.1\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Ign">
+<msg timestamp="20220220 14:18:54.747" level="FAIL">No keyword with name 'Ign' found.</msg>
+<status status="FAIL" starttime="20220220 14:18:54.747" endtime="20220220 14:18:54.747"/>
+</kw>
+<kw name="Open a browser">
+<status status="NOT RUN" starttime="20220220 14:18:54.747" endtime="20220220 14:18:54.747"/>
+</kw>
+<kw name="Search by category">
+<status status="NOT RUN" starttime="20220220 14:18:54.747" endtime="20220220 14:18:54.747"/>
+</kw>
+<kw name="Look into cellphones and smartphones page">
+<status status="NOT RUN" starttime="20220220 14:18:54.747" endtime="20220220 14:18:54.747"/>
+</kw>
+<kw name="Check more filters">
+<status status="NOT RUN" starttime="20220220 14:18:54.756" endtime="20220220 14:18:54.756"/>
+</kw>
+<kw name="Select screen size">
+<status status="NOT RUN" starttime="20220220 14:18:54.756" endtime="20220220 14:18:54.756"/>
+</kw>
+<kw name="Select price">
+<status status="NOT RUN" starttime="20220220 14:18:54.756" endtime="20220220 14:18:54.756"/>
+</kw>
+<kw name="Select location">
+<status status="NOT RUN" starttime="20220220 14:18:54.756" endtime="20220220 14:18:54.756"/>
+</kw>
+<kw name="Apply filters and verify tags">
+<status status="NOT RUN" starttime="20220220 14:18:54.764" endtime="20220220 14:18:54.764"/>
+</kw>
+<status status="PASS" starttime="20220220 14:18:54.007" endtime="20220220 14:18:57.350"/>
+</kw>
+<status status="PASS" starttime="20220220 14:18:54.007" endtime="20220220 14:18:57.350"/>
+</test>
+<status status="PASS" starttime="20220220 14:18:53.982" endtime="20220220 14:18:57.350"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
