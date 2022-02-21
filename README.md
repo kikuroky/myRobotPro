@@ -10,17 +10,17 @@
 	- Pre-condition(s):
 		- User has to login with GitHub account.
 	- Step(S):
-        	- Go to https://gist.github.com/;
-	    	- Type some text on the description textbox;
-	    	- Type desired file name on the filename textbox, including format file or extension (e.g. my_file.py);
-	    	- Type some texts or syntax code on the main textarea;
-	    	- Click button with arrow-down to select gist type, it is small button next to submit button;
-	    	- Select and click `Create public gist`;
-	    	- Click submit button `Create public gist`.
-    Expected result(s):
-        - A public gist created successfully;
-	    - Path appears to be `{profile_name}/{filename}`;
-	    - Number on tab `Revision` is 1.
+		- Go to https://gist.github.com/;
+		- Type some text on the description textbox;
+		- Type desired file name on the filename textbox, including format file or extension (e.g. my_file.py);
+		- Type some texts or syntax code on the main textarea;
+		- Click button with arrow-down to select gist type, it is small button next to submit button;
+		- Select and click `Create public gist`;
+		- Click submit button `Create public gist`.
+	- Expected result(s):
+		- A public gist created successfully;
+		- Path appears to be `{profile_name}/{filename}`;
+		- Number on tab `Revision` is 1.
 
 2. Edit existing gist:
     Pre-condition(s):
