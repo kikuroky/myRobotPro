@@ -7,8 +7,8 @@
 ## Exercise 2
 
 1. Create a public gist:
-    Pre-condition(s):
-        - User has to login with GitHub account.
+	Pre-condition(s):
+	- User has to login with GitHub account.
     Step(S):
         - Go to https://gist.github.com/;
 	    - Type some text on the description textbox;
