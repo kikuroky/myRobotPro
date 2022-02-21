@@ -9,7 +9,7 @@
 1. Create a public gist:
 	- Pre-condition(s):
 		- User has to login with GitHub account.
-	- Step(S):
+	- Step(s):
 		- Go to https://gist.github.com/;
 		- Type some text on the description textbox;
 		- Type desired file name on the filename textbox, including format file or extension (e.g. my_file.py);
@@ -23,42 +23,42 @@
 		- Number on tab `Revision` is 1.
 
 2. Edit existing gist:
-    Pre-condition(s):
-        - User has to login using GitHub account;
-	    - User has created a public gist beforehand.
-    Step(s):
-        - Go to https://gist.github.com/;
-	    - Click any of existing public gist under the header page;
-	    - Click CTA button `Edit`;
-	    - Edit the description text, filename with extension, syntax or texts;
-	    - Click submit button `Update public gist`.
-    Expected result(s):
-        - Success to edit public gist;
-	    - Number on tab `Revision` is n+1, where n is total number before edit.
+	- Pre-condition(s):
+		- User has to login using GitHub account;
+		- User has created a public gist beforehand.
+	- Step(s):
+		- Go to https://gist.github.com/;
+		- Click any of existing public gist under the header page;
+		- Click CTA button `Edit`;
+		- Edit the description text, filename with extension, syntax or texts;
+		- Click submit button `Update public gist`.
+	- Expected result(s):
+		- Success to edit public gist;
+		- Number on tab `Revision` is n+1, where n is total number before edit.
 
 3. Delete existing gist:
-    Pre-condition(s):
-        - User has to login using GitHub account;
-	    - User has created a public gist beforehand.
-    Step(s):
-        - Go to https://gist.github.com/;
-	    - Click any of existing public gist under the header page;
-	    - Click CTA button `Delete`;
-	    - Click `OK` on the confirmation warning message box;
-    Expected result(s):
-        - Gist deleted successfully;
-	    - Redirecting to gist profile page.
+	- Pre-condition(s):
+		- User has to login using GitHub account;
+		- User has created a public gist beforehand.
+	- Step(s):
+		- Go to https://gist.github.com/;
+		- Click any of existing public gist under the header page;
+		- Click CTA button `Delete`;
+		- Click `OK` on the confirmation warning message box;
+	- Expected result(s):
+		- Gist deleted successfully;
+		- Redirecting to gist profile page.
 
 4. View list of gists:
-    Pre-condition(s):
-        - User has to login using GitHub account;
-	    - User has created some public gists beforehand.
-    Step(s):
-        - Go to https://gist.github.com/;
-	    - Click CTA text `View your gists`.
-    Expected result(s):
-        - Redirecting to gist profile page;
-	    - Total gists is equal to  the number on title `All gists`.
+	- Pre-condition(s):
+		- User has to login using GitHub account;
+		- User has created some public gists beforehand.
+	- Step(s):
+		- Go to https://gist.github.com/;
+		- Click CTA text `View your gists`.
+	- Expected result(s):
+		- Redirecting to gist profile page;
+		- Total gists is equal to  the number on title `All gists`.
 
 ## Exercise 3
 
