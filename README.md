@@ -9,7 +9,7 @@
 1. Create a public gist:
 	- Pre-condition(s):
 		- User has to login with GitHub account.
-    	- Step(S):
+	- Step(S):
         	- Go to https://gist.github.com/;
 	    	- Type some text on the description textbox;
 	    	- Type desired file name on the filename textbox, including format file or extension (e.g. my_file.py);
