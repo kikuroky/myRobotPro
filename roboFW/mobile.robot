@@ -1,11 +1,15 @@
 *** Settings ***
 Documentation    Android Test Run
-Resource    asset.robot
+Resource    keywords.resource
+Resource    keywords.resource
 Test Teardown    Close Application
 
 *** Tasks ***
-My first Android test
-    Open test demo app
-    Input search query    Hello World!
-    Submit search
-    Verify query    Hello World!
+My first test
+    Allowing permissions
+
+# My first Android test
+#     Open test demo app
+#     Input search query    Hello World!
+#     Submit search
+#     Verify query    Hello World!
